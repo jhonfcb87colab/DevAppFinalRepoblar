@@ -1,0 +1,41 @@
+ttkbootstrap==1.10.1
+pandas==2.2.2
+pyodbc==5.1.0
+tksheet==7.0.5
+pysqlite3
+ldap3==2.9.1
+pyasn1
+pyinstaller
+
+
+
+
+## pip install -r requirements.txt
+
+
+
+# & "C:\Users\john.cruz\AppData\Roaming\Python\Python39\Scripts\pyinstaller.exe" --onefile --noconsole --clean --hidden-import ldap3 --hidden-import pyasn1 --hidden-import pyasn1_modules --collect-all ttkbootstrap main.py
+
+
+
+
+# & "C:\Users\john.cruz\AppData\Roaming\Python\Python39\Scripts\pyinstaller.exe" `
+# --onefile `
+# --noconsole `
+# --clean `
+# --collect-all ttkbootstrap `
+# --collect-all ldap3 `
+# main.py
+
+
+
+
+# & "C:\Users\john.cruz\AppData\Roaming\Python\Python39\Scripts\pyinstaller.exe"
+# --onefile `
+# --noconsole `
+# --clean `
+# --collect-all ldap3 `
+# --collect-all pyasn1 `
+# --collect-all pyasn1_modules `
+# --collect-all ttkbootstrap `
+# main.py
