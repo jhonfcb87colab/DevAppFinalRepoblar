@@ -13,6 +13,35 @@ pyinstaller
 ## pip install -r requirements.txt
 
 
+# Write-Host "Limpiando builds anteriores..."
+# >> 
+# >> if (Test-Path build) { Remove-Item build -Recurse -Force }
+# >> if (Test-Path dist) { Remove-Item dist -Recurse -Force }
+# >> if (Test-Path main.spec) { Remove-Item main.spec -Force }
+# >> 
+# >> Write-Host "Compilando aplicación..."
+# >> 
+# >> python -m PyInstaller `
+# >> --onefile `
+# >> --noconsole `
+# >> --clean `
+# >> --name AppRepoblar `
+# >> --collect-all ldap3 `
+# >> --collect-all pyasn1 `
+# >> --collect-all pyasn1_modules `
+# >> --collect-all ttkbootstrap `
+# >> main.py
+# >> 
+# >> Write-Host "Build finalizado"
+
+
+
+
+
+
+
+
+
 
 # & "C:\Users\john.cruz\AppData\Roaming\Python\Python39\Scripts\pyinstaller.exe" --onefile --noconsole --clean --hidden-import ldap3 --hidden-import pyasn1 --hidden-import pyasn1_modules --collect-all ttkbootstrap main.py
 
